@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Hello, world!</title>
+</head>
+
+<body style="background-image: url('https://isaacintelligence.com/wp-content/uploads/2016/02/Group-of-people-talking-around-table-1.jpg');background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white; padding: 0.5cm; font-family: Verdana, Geneva, Tahoma, sans-serif; outline: solid;">
+        <div class="container-fluid">
+            <img src="" alt="">
+            <a class="navbar-brand" href="#">Helping Hands</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{{url_for('homepage')}}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('page2')}}">Take A Survey!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('page3')}}">About The Founders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('page4')}}" tabindex="-1" aria-disabled="true">Useful Resouces</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+        <div style="text-align: center; padding: 1cm; background-color: wheat; outline: solid;">
+            <h3 style="font-family:Verdana, Geneva, Tahoma, sans-serif;">
+                Thank you, we will contact you as soon as possible.
+            </h3>
+        </div>
+
+        <div style="padding: 3cm; height: 450px;">
+            <a style="text-align: center; color: black; outline: solid; background-color: wheat; font-family: Verdana, Geneva, Tahoma, sans-serif;"
+                class="nav-link active" aria-current="page" href="{{url_for('homepage')}}">Head Back To
+                the Homepage</a>
+
+        </div>
+        <div
+        style="display:block; width:100%; background-color: beige; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        <div
+            style="width:100%; display: inline-block; height: 75px; background-color:burlywood; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; padding: 0.5cm;">
+            Copyright 2021 |
+            <a href="{{url_for('page3')}}">Contact Us</a>
+            <div>
+            21st Street, New York, New York
+        </div>
+        </div>
+    </div>
+
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

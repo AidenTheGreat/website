@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Hello, world!</title>
+</head>
+
+<body style="background-color:white;">
+
+    <nav class="navbar navbar-expand-lg navbar-light"
+        style="outline: solid; background-color:white; font-family:Verdana, Geneva, Tahoma, sans-serif; padding: 0.5cm;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Helping Hands</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('page2')}}">Take A Survey!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('page3')}}">About The Founders</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('page4')}}" tabindex="-1" aria-disabled="true">Useful Resources</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="height: 400px;">
+                <img class="d-block w-100"
+                    src="https://www.westendhba.ca/wp-content/uploads/2019/04/close-up-people-working-together-around-table-in-page.jpg"
+                    alt="First slide">
+                <div class="carousel-caption" style="width: 700px; ">
+                    <h5 style="color:black; font-family: Verdana, Geneva, Tahoma, sans-serif;"></h5>
+                    <p style="color: black; font-family: Verdana, Geneva, Tahoma, sans-serif;"></p>
+                </div>
+                
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100"
+                    src="https://crewnetwork.org/getattachment/About/CREW-View-Wendy-s-Blog/July-2019/Who-s-at-Your-Table/people-laughing-around-table.jpg.aspx?lang=en-US"
+                    alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100"
+                    src="https://teenpregnancy.acf.hhs.gov/sites/default/files/image_group_talking_around_table_1200x800.jpg"
+                    alt="Third slide">
+                <div class="carousel-caption">
+                    <h1></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</h3>
+<div style="padding: 1cm;">
+<div style="outline: solid; height: 300px; padding: 1cm;">
+    <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center;">Help Us (And Yourself) Out!
+<h5 style="padding: 1cm; text-align: center;">
+        By filling out this survey, you are signing up for financial aid and guidance for housing.
+</h5>
+<a class="nav-link" style="color:black; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; background-color: wheat; outline: solid; font-size: larger;" href="{{url_for('page2')}}">Get Help Now!</a>
+</div>
+</div>
+
+<div style="padding: 1cm;">
+<div style="outline: solid; height: 300px; padding: 1cm;">
+    <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center;">Our Company's Mission:
+
+</h3>
+<h5 style="padding: 1cm;">
+        Increasing inflation, natural disasters, stagnant wages, and increased demand for living space in America, especially in large cities
+    such as New York City, has caused a housing crisis. Helping Hands reaches out to those who are in need and connects them to organizations that can provide them
+    with affordable housing in their preferred locations. Helping Hands also provides financial plans as well as other online resouces (government run websites and programs) to aid them in saving up for their housing.
+</h5>
+
+</div>
+</div>
+    <div class="container" style="text-align: center; padding: 1cm; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        <div class="row">
+            <div class="col-sm" style="background-color: wheat; height: 500px; padding: 1cm; outline: solid;">
+                <h5>
+                Seek Out Information
+            </h5>
+            <p>
+                Many that are homeless or in poverty stay in poverty because they are not aware of government/charitable programs that they could go to help for.  
+
+
+            </p>
+            </div>
+            <div class="col-sm" style="background-color: white; height: 500px; padding: 1cm; outline: solid; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                <h5>
+                The Homeless Crisis in New York City (And Most of America)
+            </h5>
+            <p style="padding: 0.1cm;">
+                According to the Coalition for the Homeless, in May 2021, there were 51,882 homeless people, including 15,930 homeless children, sleeping each night in the New York City municipal shelter system. A near-record 20,064 single adults slept in shelters in May 2021.
+            </p>
+            </div>
+            <div class="col-sm" style="background-color: wheat; height: 500px; padding: 1cm; outline: solid;">
+                <h5>
+                    The Minimum Wage Problem
+                </h5>
+                <p>
+                    The nationwide minimum wage, which is currently at $7.25, is not enough to even rent a one bedroom apartment in 95% of America (averaging about $1,100 dollars per month), and that number is still increasing.
+                    <div>
+                    <img src="https://webstockreview.net/images/graph-clipart-arrow-up-19.png" alt="" height="100" width="100">
+                </div>
+                </p>
+            </div>
+            <div class="col-sm" style="background-color:white; height: 500px; padding: 1cm; outline: solid;">
+                <h5>
+                    We Understand You
+                </h5>
+                <p>
+                    Helping Hands was founded by three New York City students who experienced or witnessed the widespread housing and poverty problem in New York City. We were lucky enough to find financial support programs, but now we want to give back and help others out of this situation.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <img src="https://www.sltrib.com/resizer/Cgx8hjNDoP9YgyCwTFpbNj0xsSI=/1024x650/cloudfront-us-east-1.images.arcpublishing.com/sltrib/M47CBBRBLNE35IRTDX5EEFJMHA.JPG" alt="Italian Trulli" width="100%" height="600" style="outline: solid;">
+
+
+
+
+    <div
+        style="display:block; width:100%; background-color: beige; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        <div
+            style="width:100%; display: inline-block; height: 75px; background-color:burlywood; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; padding: 0.5cm;">
+            Copyright 2021 |
+            <a href="{{url_for('page3')}}">Contact Us</a>
+            <div>
+            21st Street, New York, New York
+        </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

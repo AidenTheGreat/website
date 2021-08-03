@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light"
+        style="background-color:white; outline: solid; font-family: Verdana, Geneva, Tahoma, sans-serif; padding: 0.5cm;">
+        <div class="container-fluid">
+            <img src="" alt="">
+            <a class="navbar-brand" href="#">Helping Hands</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="{{url_for('homepage')}}"">Home</a>
+        </li>
+        <li class=" nav-item">
+                            <a class="nav-link" href="{{url_for('page2')}}">Take A Survey!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('page3')}}">About The Founders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('page4')}}" tabindex="-1" aria-disabled="true">Useful
+                            Resources
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        <h5 style="font-family: Verdana, Geneva, Tahoma, sans-serif; padding: 1cm;">
+            How To Save Money:
+        </h5>
+
+        <p style="padding: 0.5cm; background-color: wheat; outline: solid;">
+            Applying For Higher Paying Jobs:
+        </p>
+
+        <iframe height="350" width="600" style="padding: 1cm;" src="https://www.youtube.com/embed/fouuYv8i9Ws">
+        </iframe>
+        <p style="padding: 1cm; outline: solid;">
+            USA.gov <a href="https://www.usa.gov/government-jobs"> Government Programs That Help You With Careers:
+            </a>
+        </p>
+        <p style="padding: 1cm; outline: solid;">
+            80000hours.org:
+            <a href="https://80000hours.org/career-guide/how-to-get-a-job/">How Your Passion Could Start A New Career</a>
+        </p>
+
+
+    </div>
+
+    <div style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        <p style="background-color: wheat; outline: solid; padding: 0.5cm;">
+            Applying For Welfare Programs:
+        </p>
+        <iframe height="350" width="600" style="padding: 1cm;" src="https://www.youtube.com/embed/1f5PJYH_YbY">
+        </iframe>
+
+        <iframe height="350" width="600" style="padding: 1cm;" src="https://www.youtube.com/embed/MZJIgGyabwI">
+        </iframe>
+        <iframe height="350" width="600" style="padding: 1cm;" src="https://www.youtube.com/embed/l5Xi67ff318">
+        </iframe>
+        <iframe height="350" width="600" style="padding: 1cm;" src="https://www.youtube.com/embed/KLwlK2GjeJA">
+        </iframe>
+
+    </div>
+
+    <div style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+
+
+        <p
+            style="padding: 0.5cm; background-color: wheat; outline: solid; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            Government Websites For Financial Assistance
+        </p>
+        <p style="padding: 1cm; outline: solid;">USA.gov:
+            <a href="https://www.usa.gov/housing-help-audiences">Government Housing Help</a>
+        </p>
+
+        <p style="padding: 1cm; outline: solid;">
+            NY.gov:
+            <a href="https://www.ny.gov/services/housing">New York State Housing Assistance</a>
+        </p>
+
+        <p style="padding: 1cm; outline: solid;">
+            NYC.gov:
+            <a href="https://www1.nyc.gov/site/hra/help/housing-assistance-program.page">New York City Housing
+                Assistance</a>
+        </p>
+        <p style="padding: 1cm; outline: solid;">
+            NYC.gov:
+            <a href="https://www1.nyc.gov/site/nycha/index.page">New York City Housing Authority</a>
+        </p>
+    </div>
+
+    <div style="display:block; width:100%; background-color: beige;">
+        <div
+            style="width:100%; display: inline-block; height: 75px; background-color:burlywood; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; padding: 0.5cm;">
+            Copyright 2021 |
+            <a href="{{url_for('page3')}}">Contact Us</a>
+            <div>
+                21st Street, New York, New York
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
